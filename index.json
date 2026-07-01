@@ -1,0 +1,157 @@
+{
+  "generated_utc": "2026-07-01T12:31:00.562Z",
+  "sample_domains": 50000,
+  "methodology": "Live DNS scan (MX/SPF/DMARC). Aggregate only — no email sent, no personal data.",
+  "headline": {
+    "have_mx_pct": 79.9,
+    "have_spf_pct": 75.8,
+    "have_dmarc_pct": 64,
+    "dmarc_reject_pct_of_all": 22.6
+  },
+  "mx_provider_share": [
+    {
+      "label": "Other / self-hosted",
+      "count": 13030,
+      "pct": 32.6
+    },
+    {
+      "label": "Google Workspace / Gmail",
+      "count": 11285,
+      "pct": 28.2
+    },
+    {
+      "label": "Microsoft 365 / Outlook",
+      "count": 9010,
+      "pct": 22.5
+    },
+    {
+      "label": "Proofpoint",
+      "count": 2213,
+      "pct": 5.5
+    },
+    {
+      "label": "Mimecast",
+      "count": 1250,
+      "pct": 3.1
+    },
+    {
+      "label": "Tencent QQ",
+      "count": 793,
+      "pct": 2
+    },
+    {
+      "label": "Namecheap",
+      "count": 501,
+      "pct": 1.3
+    },
+    {
+      "label": "Cisco IronPort",
+      "count": 365,
+      "pct": 0.9
+    },
+    {
+      "label": "Zoho",
+      "count": 301,
+      "pct": 0.8
+    },
+    {
+      "label": "Barracuda",
+      "count": 236,
+      "pct": 0.6
+    },
+    {
+      "label": "Amazon SES",
+      "count": 199,
+      "pct": 0.5
+    },
+    {
+      "label": "Fastmail",
+      "count": 155,
+      "pct": 0.4
+    },
+    {
+      "label": "GoDaddy",
+      "count": 121,
+      "pct": 0.3
+    },
+    {
+      "label": "Mailgun",
+      "count": 114,
+      "pct": 0.3
+    },
+    {
+      "label": "Proton",
+      "count": 114,
+      "pct": 0.3
+    },
+    {
+      "label": "OVH",
+      "count": 74,
+      "pct": 0.2
+    },
+    {
+      "label": "Gandi",
+      "count": 69,
+      "pct": 0.2
+    },
+    {
+      "label": "NetEase",
+      "count": 68,
+      "pct": 0.2
+    },
+    {
+      "label": "Yahoo",
+      "count": 37,
+      "pct": 0.1
+    },
+    {
+      "label": "One.com",
+      "count": 24,
+      "pct": 0.1
+    }
+  ],
+  "spf_policy_breakdown": [
+    {
+      "label": "~",
+      "count": 19087,
+      "pct": 50.4
+    },
+    {
+      "label": "-",
+      "count": 16891,
+      "pct": 44.6
+    },
+    {
+      "label": "none",
+      "count": 990,
+      "pct": 2.6
+    },
+    {
+      "label": "?",
+      "count": 920,
+      "pct": 2.4
+    },
+    {
+      "label": "+",
+      "count": 7,
+      "pct": 0
+    }
+  ],
+  "dmarc_policy_breakdown": [
+    {
+      "label": "none",
+      "count": 11909,
+      "pct": 37.2
+    },
+    {
+      "label": "reject",
+      "count": 11276,
+      "pct": 35.2
+    },
+    {
+      "label": "quarantine",
+      "count": 8817,
+      "pct": 27.6
+    }
+  ]
+}
