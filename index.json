@@ -1,87 +1,87 @@
 {
-  "generated_utc": "2026-07-01T12:31:00.562Z",
+  "generated_utc": "2026-07-02T04:17:15.411Z",
   "sample_domains": 50000,
   "methodology": "Live DNS scan (MX/SPF/DMARC). Aggregate only — no email sent, no personal data.",
   "headline": {
-    "have_mx_pct": 79.9,
-    "have_spf_pct": 75.8,
-    "have_dmarc_pct": 64,
-    "dmarc_reject_pct_of_all": 22.6
+    "have_mx_pct": 80.6,
+    "have_spf_pct": 76.5,
+    "have_dmarc_pct": 64.6,
+    "dmarc_reject_pct_of_all": 22.7
   },
   "mx_provider_share": [
     {
       "label": "Other / self-hosted",
-      "count": 13030,
-      "pct": 32.6
+      "count": 13104,
+      "pct": 32.5
     },
     {
       "label": "Google Workspace / Gmail",
-      "count": 11285,
-      "pct": 28.2
+      "count": 11390,
+      "pct": 28.3
     },
     {
       "label": "Microsoft 365 / Outlook",
-      "count": 9010,
-      "pct": 22.5
+      "count": 9101,
+      "pct": 22.6
     },
     {
       "label": "Proofpoint",
-      "count": 2213,
+      "count": 2230,
       "pct": 5.5
     },
     {
       "label": "Mimecast",
-      "count": 1250,
+      "count": 1261,
       "pct": 3.1
     },
     {
       "label": "Tencent QQ",
-      "count": 793,
+      "count": 794,
       "pct": 2
     },
     {
       "label": "Namecheap",
-      "count": 501,
-      "pct": 1.3
+      "count": 503,
+      "pct": 1.2
     },
     {
       "label": "Cisco IronPort",
-      "count": 365,
+      "count": 369,
       "pct": 0.9
     },
     {
       "label": "Zoho",
-      "count": 301,
+      "count": 303,
       "pct": 0.8
     },
     {
       "label": "Barracuda",
-      "count": 236,
+      "count": 245,
       "pct": 0.6
     },
     {
       "label": "Amazon SES",
-      "count": 199,
+      "count": 200,
       "pct": 0.5
     },
     {
       "label": "Fastmail",
-      "count": 155,
+      "count": 157,
       "pct": 0.4
     },
     {
       "label": "GoDaddy",
-      "count": 121,
+      "count": 119,
       "pct": 0.3
     },
     {
       "label": "Mailgun",
-      "count": 114,
+      "count": 116,
       "pct": 0.3
     },
     {
       "label": "Proton",
-      "count": 114,
+      "count": 113,
       "pct": 0.3
     },
     {
@@ -91,12 +91,12 @@
     },
     {
       "label": "Gandi",
-      "count": 69,
+      "count": 74,
       "pct": 0.2
     },
     {
       "label": "NetEase",
-      "count": 68,
+      "count": 71,
       "pct": 0.2
     },
     {
@@ -113,22 +113,22 @@
   "spf_policy_breakdown": [
     {
       "label": "~",
-      "count": 19087,
+      "count": 19289,
       "pct": 50.4
     },
     {
       "label": "-",
-      "count": 16891,
-      "pct": 44.6
+      "count": 17043,
+      "pct": 44.5
     },
     {
       "label": "none",
-      "count": 990,
+      "count": 1000,
       "pct": 2.6
     },
     {
       "label": "?",
-      "count": 920,
+      "count": 926,
       "pct": 2.4
     },
     {
@@ -140,17 +140,17 @@
   "dmarc_policy_breakdown": [
     {
       "label": "none",
-      "count": 11909,
+      "count": 12017,
       "pct": 37.2
     },
     {
       "label": "reject",
-      "count": 11276,
+      "count": 11365,
       "pct": 35.2
     },
     {
       "label": "quarantine",
-      "count": 8817,
+      "count": 8913,
       "pct": 27.6
     }
   ]
