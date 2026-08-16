@@ -1,43 +1,43 @@
 {
-  "generated_utc": "2026-08-15T04:19:02.840Z",
+  "generated_utc": "2026-08-16T04:18:34.091Z",
   "sample_domains": 50000,
   "methodology": "Live DNS scan (MX/SPF/DMARC). Aggregate only — no email sent, no personal data.",
   "headline": {
-    "have_mx_pct": 80.3,
-    "have_spf_pct": 76.4,
-    "have_dmarc_pct": 64.7,
-    "dmarc_reject_pct_of_all": 23
+    "have_mx_pct": 80.8,
+    "have_spf_pct": 76.9,
+    "have_dmarc_pct": 65,
+    "dmarc_reject_pct_of_all": 23.1
   },
   "mx_provider_share": [
     {
       "label": "Other / self-hosted",
-      "count": 12923,
-      "pct": 32.2
+      "count": 13156,
+      "pct": 32.6
     },
     {
       "label": "Google Workspace / Gmail",
-      "count": 11373,
-      "pct": 28.3
+      "count": 11394,
+      "pct": 28.2
     },
     {
       "label": "Microsoft 365 / Outlook",
-      "count": 9157,
-      "pct": 22.8
+      "count": 9166,
+      "pct": 22.7
     },
     {
       "label": "Proofpoint",
-      "count": 2242,
+      "count": 2243,
       "pct": 5.6
     },
     {
       "label": "Mimecast",
-      "count": 1260,
+      "count": 1259,
       "pct": 3.1
     },
     {
       "label": "Tencent QQ",
-      "count": 794,
-      "pct": 2
+      "count": 787,
+      "pct": 1.9
     },
     {
       "label": "Namecheap",
@@ -46,17 +46,17 @@
     },
     {
       "label": "Cisco IronPort",
-      "count": 356,
+      "count": 352,
       "pct": 0.9
     },
     {
       "label": "Zoho",
-      "count": 306,
+      "count": 307,
       "pct": 0.8
     },
     {
       "label": "Barracuda",
-      "count": 243,
+      "count": 244,
       "pct": 0.6
     },
     {
@@ -71,17 +71,17 @@
     },
     {
       "label": "GoDaddy",
-      "count": 122,
+      "count": 119,
       "pct": 0.3
     },
     {
       "label": "Proton",
-      "count": 116,
+      "count": 117,
       "pct": 0.3
     },
     {
       "label": "Mailgun",
-      "count": 112,
+      "count": 113,
       "pct": 0.3
     },
     {
@@ -96,12 +96,12 @@
     },
     {
       "label": "NetEase",
-      "count": 70,
+      "count": 69,
       "pct": 0.2
     },
     {
       "label": "Yahoo",
-      "count": 37,
+      "count": 36,
       "pct": 0.1
     },
     {
@@ -113,22 +113,22 @@
   "spf_policy_breakdown": [
     {
       "label": "~",
-      "count": 19178,
+      "count": 19292,
       "pct": 50.2
     },
     {
       "label": "-",
-      "count": 17163,
-      "pct": 44.9
+      "count": 17224,
+      "pct": 44.8
     },
     {
       "label": "none",
-      "count": 953,
-      "pct": 2.5
+      "count": 995,
+      "pct": 2.6
     },
     {
       "label": "?",
-      "count": 909,
+      "count": 913,
       "pct": 2.4
     },
     {
@@ -140,17 +140,17 @@
   "dmarc_policy_breakdown": [
     {
       "label": "none",
-      "count": 11834,
+      "count": 11884,
       "pct": 36.6
     },
     {
       "label": "reject",
-      "count": 11498,
+      "count": 11549,
       "pct": 35.5
     },
     {
       "label": "quarantine",
-      "count": 9017,
+      "count": 9068,
       "pct": 27.9
     }
   ],
@@ -158,71 +158,71 @@
     {
       "label": "Mail-enabled (have MX)",
       "pct": 100,
-      "count": 40135
+      "count": 40386
     },
     {
       "label": "Publish SPF",
       "pct": 91.7,
-      "count": 36790
+      "count": 37030
     },
     {
       "label": "Publish DMARC",
-      "pct": 77.5,
-      "count": 31102
+      "pct": 77.4,
+      "count": 31264
     },
     {
       "label": "Enforce (quarantine or reject)",
       "pct": 48.7,
-      "count": 19546
+      "count": 19654
     },
     {
       "label": "Reject (p=reject)",
       "pct": 26.5,
-      "count": 10646
+      "count": 10708
     }
   ],
   "provider_auth": [
     {
       "label": "Other / self-hosted",
-      "mx": 12923,
-      "mx_pct": 32.2,
+      "mx": 13156,
+      "mx_pct": 32.6,
       "dmarc_reject_pct": 18.6,
-      "spf_hardfail_pct": 43
+      "spf_hardfail_pct": 42.8
     },
     {
       "label": "Google Workspace / Gmail",
-      "mx": 11373,
-      "mx_pct": 28.3,
+      "mx": 11394,
+      "mx_pct": 28.2,
       "dmarc_reject_pct": 27,
       "spf_hardfail_pct": 25.9
     },
     {
       "label": "Microsoft 365 / Outlook",
-      "mx": 9157,
-      "mx_pct": 22.8,
-      "dmarc_reject_pct": 31.6,
+      "mx": 9166,
+      "mx_pct": 22.7,
+      "dmarc_reject_pct": 31.7,
       "spf_hardfail_pct": 60.8
     },
     {
       "label": "Proofpoint",
-      "mx": 2242,
+      "mx": 2243,
       "mx_pct": 5.6,
       "dmarc_reject_pct": 61.8,
-      "spf_hardfail_pct": 44.4
+      "spf_hardfail_pct": 44.2
     },
     {
       "label": "Mimecast",
-      "mx": 1260,
+      "mx": 1259,
       "mx_pct": 3.1,
       "dmarc_reject_pct": 36.1,
-      "spf_hardfail_pct": 41.6
+      "spf_hardfail_pct": 41.8
     },
     {
       "label": "Tencent QQ",
-      "mx": 794,
-      "mx_pct": 2,
-      "dmarc_reject_pct": 2.4,
-      "spf_hardfail_pct": 6.7
+      "mx": 787,
+      "mx_pct": 1.9,
+      "dmarc_reject_pct": 2.3,
+      "spf_hardfail_pct": 6.2
     },
     {
       "label": "Namecheap",
@@ -233,12 +233,12 @@
     }
   ],
   "ipv6": {
-    "overall_pct": 54.9,
-    "ex_hyperscaler_pct": 11.7,
+    "overall_pct": 55.3,
+    "ex_hyperscaler_pct": 12.9,
     "by_provider": [
       {
         "label": "Google Workspace / Gmail",
-        "mx": 11373,
+        "mx": 11394,
         "ipv6_pct": 100
       },
       {
@@ -248,27 +248,27 @@
       },
       {
         "label": "Microsoft 365 / Outlook",
-        "mx": 9157,
+        "mx": 9166,
         "ipv6_pct": 91.3
       },
       {
         "label": "Other / self-hosted",
-        "mx": 12923,
-        "ipv6_pct": 16.6
+        "mx": 13156,
+        "ipv6_pct": 18.4
       },
       {
         "label": "Mailgun",
-        "mx": 112,
-        "ipv6_pct": 4.5
+        "mx": 113,
+        "ipv6_pct": 4.4
       },
       {
         "label": "Tencent QQ",
-        "mx": 794,
-        "ipv6_pct": 4.3
+        "mx": 787,
+        "ipv6_pct": 4.2
       },
       {
         "label": "Cisco IronPort",
-        "mx": 356,
+        "mx": 352,
         "ipv6_pct": 3.1
       },
       {
@@ -278,12 +278,17 @@
       },
       {
         "label": "NetEase",
-        "mx": 70,
+        "mx": 69,
         "ipv6_pct": 1.4
       },
       {
+        "label": "GoDaddy",
+        "mx": 119,
+        "ipv6_pct": 0.8
+      },
+      {
         "label": "Proofpoint",
-        "mx": 2242,
+        "mx": 2243,
         "ipv6_pct": 0.7
       },
       {
@@ -293,17 +298,17 @@
       },
       {
         "label": "Mimecast",
-        "mx": 1260,
+        "mx": 1259,
         "ipv6_pct": 0
       },
       {
         "label": "Zoho",
-        "mx": 306,
+        "mx": 307,
         "ipv6_pct": 0
       },
       {
         "label": "Barracuda",
-        "mx": 243,
+        "mx": 244,
         "ipv6_pct": 0
       },
       {
@@ -317,21 +322,16 @@
         "ipv6_pct": 0
       },
       {
-        "label": "GoDaddy",
-        "mx": 122,
-        "ipv6_pct": 0
-      },
-      {
         "label": "Proton",
-        "mx": 116,
+        "mx": 117,
         "ipv6_pct": 0
       }
     ]
   },
   "concentration": {
     "distinct_providers": 20,
-    "top1_pct": 32.2,
-    "top3_pct": 83.3,
-    "top5_pct": 92
+    "top1_pct": 32.6,
+    "top3_pct": 83.5,
+    "top5_pct": 92.2
   }
 }
