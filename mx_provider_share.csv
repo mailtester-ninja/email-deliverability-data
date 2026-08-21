@@ -1,21 +1,21 @@
 provider,count,pct_of_mx
-"Other / self-hosted",13167,32.6
-"Google Workspace / Gmail",11389,28.2
-"Microsoft 365 / Outlook",9162,22.7
-"Proofpoint",2251,5.6
-"Mimecast",1260,3.1
-"Tencent QQ",791,2
-"Namecheap",501,1.2
-"Cisco IronPort",348,0.9
+"Other / self-hosted",13161,32.6
+"Google Workspace / Gmail",11383,28.2
+"Microsoft 365 / Outlook",9170,22.7
+"Proofpoint",2247,5.6
+"Mimecast",1259,3.1
+"Tencent QQ",789,2
+"Namecheap",500,1.2
+"Cisco IronPort",349,0.9
 "Zoho",307,0.8
 "Barracuda",243,0.6
 "Amazon SES",196,0.5
 "Fastmail",156,0.4
-"GoDaddy",120,0.3
+"GoDaddy",119,0.3
 "Proton",117,0.3
-"Mailgun",112,0.3
-"OVH",74,0.2
+"Mailgun",115,0.3
+"OVH",75,0.2
 "Gandi",74,0.2
 "NetEase",71,0.2
-"Yahoo",37,0.1
+"Yahoo",36,0.1
 "One.com",24,0.1
